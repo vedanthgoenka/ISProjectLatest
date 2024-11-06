@@ -1,0 +1,17 @@
+[
+  {
+    "name": "John Doe",
+    "accountNumber": "1234567890",
+    "password": "$2b$10$hr/P3pxvK6x8FnX7AEpdqu7.gRowigWS.vQIoOLlnH.uyZ9fgWoxG"
+  },
+  {
+    "name": "Harsh Agarwal",
+    "accountNumber": "1234567891",
+    "password": "$2b$10$EjwoMP.e9ghX.ao8fqK1POAQ.ybqMDddzNkVGnw.MzIMsNvm3JiTq"
+  },
+  {
+    "name": "vedanth",
+    "accountNumber": "1234567892",
+    "password": "$2b$10$y6Y2SUZpIM9nyjIceOX8GODnFvt6GHt3kTRMLVqRDnBkpa9gVQHKW"
+  }
+]

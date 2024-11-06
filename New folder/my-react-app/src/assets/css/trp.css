@@ -1,0 +1,13 @@
+.transfer-page-container {
+    display: flex;
+  }
+  
+  .tab {
+    width: 200px; /* Set width for the sidenav */
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  

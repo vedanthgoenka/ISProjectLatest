@@ -1,0 +1,42 @@
+.transactions-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    width: 82rem; /* Adjust width as needed */
+    background-color: rgb(187, 250, 155);
+  }
+
+  .single-transaction{
+    display: flex;
+  }
+
+  .single-transaction img{
+    margin: 0.3rem;
+    margin-right: 0.8rem;
+    height: 1.9rem;
+    width: 1.9rem;
+  }
+
+  .ab{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ab h3{
+    margin: 0 0 0 2rem;
+  }
+
+  .ab p{
+    margin: 0 0 0 2rem;
+  }
+
+  .transaction-contents{
+    display: flex;
+    justify-content: space-between;
+    width:85rem;
+  }
+
+  .price{
+    margin-right: 2rem;
+    font-size: 2rem;
+  }

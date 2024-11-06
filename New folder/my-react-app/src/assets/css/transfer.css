@@ -1,0 +1,64 @@
+/* Container styling */
+.transfer-form-container {
+  max-width: 400px;
+  margin: 150px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.transfer-form-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.transfer-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Input field styling */
+.form-select,
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+.form-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #218838;
+}
+
+#transferAmount{
+  width:96%;
+}

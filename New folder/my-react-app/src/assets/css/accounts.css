@@ -1,0 +1,108 @@
+/* Main dashboard container */
+.dashboard-main-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 18rem;
+  /* Offset for sidenav */
+}
+
+/* Sidenav styling */
+.dashboard-sidenav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+/* Top container styling */
+.dashboard-top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+  margin-top: 2rem;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+}
+
+.dashboard-inner-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dashboard-profile-img {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.dashboard-username {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Accounts section styling */
+.dashboard-accounts-section {
+  margin-top: 2rem;
+}
+
+.dashboard-section-title {
+  font-size: 1.5rem;
+}
+
+.dashboard-accounts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dashboard-account-card {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+}
+
+/* Cards section styling */
+.dashboard-cards-section {
+  margin-top: 2rem;
+}
+
+.dashboard-card-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 80rem;
+  height: 35rem;
+}
+
+/* Transactions section styling */
+.dashboard-transactions-section {
+  margin-top: 2rem;
+}
+
+.logout-button {
+  background-color: #f44336;
+  /* Red background */
+  color: white;
+  /* White text */
+  border: none;
+  /* Remove default border */
+  padding: 10px 20px;
+  /* Add padding */
+  border-radius: 5px;
+  /* Rounded corners */
+  cursor: pointer;
+  /* Pointer cursor */
+  font-size: 16px;
+  /* Font size */
+  margin-top: 20px;
+  /* Margin for spacing */
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+  /* Darker red on hover */
+}
